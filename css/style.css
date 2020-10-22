@@ -1,0 +1,16 @@
+[class*="col-"] {
+  text-align: center;
+  margin: auto;
+  line-height: 200px;
+  height: 100%;
+
+}
+
+.col-6 > [class*="col-"] {
+  background: lightcoral;
+  border:  1px solid white;
+}
+
+.col-6.nested {
+  border: 5px solid pink;
+}
